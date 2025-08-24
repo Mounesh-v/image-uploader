@@ -21,5 +21,5 @@ app.post("/upload", upload_multer, Image_Controller);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () =>
-  console.log(`Server is Running On http://localhost:${port}`)
+  console.log(`Server is Running On ${port}`)
 );
