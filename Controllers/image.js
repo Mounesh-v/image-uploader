@@ -14,7 +14,7 @@ cloudinary.config({
 export const Image_Controller = async (req, res) => {
   const file = req.file.path;
   //   Upload Cloudinary
-  const cloudinaryRes = await cloudinaryRes.uploader.upload(file, {
+  const cloudinaryRes = await cloudinary.uploader.upload(file, {
     folder: "Image_Uploader",
   });
 
