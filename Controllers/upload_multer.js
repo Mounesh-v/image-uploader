@@ -1,5 +1,6 @@
 import multer from "multer";
 import { v2 as cloudinary } from "cloudinary";
+import path from "path";
 
 // Disk Storage
 const storage = multer.diskStorage({
